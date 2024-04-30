@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/signup.css" />
+    <script
+      src="https://kit.fontawesome.com/323a4b731f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="form signup_form">
+      <form action="#">
+        <h2>Signup</h2>
+
+        <div class="input_box">
+          <i class="user fas fa-user"></i>
+          <input type="text" placeholder="Username" required />
+         
+        </div>
+        <div class="input_box">
+          <i class="email fas fa-envelope"></i>
+          <input type="email" placeholder="Email" required />
+      
+        </div>
+        <div class="input_box">
+          <i class="password fas fa-lock"></i>
+          <input type="password" placeholder="Password" required />
+          
+        </div>
+        <div class="input_box">
+          <i class="password fas fa-lock"></i>
+          <input type="password" placeholder="Confirm Password" required />
+          
+        </div>
+        <a href="login.html" class="btn btn-success register">Register</a>
+
+        <div class="option_field">
+          <span class="checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">I agree to the terms and conditions</label>
+          </span>
+        </div>
+
+        <div class="login_signup">
+          Already have an account ? <a href="login.html">Login</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+* {
+  margin: 0;
+}
+/*common styles or utilities*/
+
+body {
+  font-family: "Poppins" , sans-serif;
+}
+header{
+  background-image: url('../images/home-banner-background.png');
+ /* Change this line */
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+
+}
+
+
+.Admins{
+    padding-top: 30px;
+}
+.admin_header{
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+.carousel-inner{
+    margin-top: 30px;
+   
+}
+.card-body{
+    text-align: center;
+}
+.log_img{
+  height:120px;
+  width:220px;
+}
+
+
+
+.livestock-container {
+  transition: background-color 0.3s  ;
+  transition-timing-function: ease-in-out; 
+}
+
+.livestock-container:hover {
+  background-color: rgb(204, 255, 204);
+  transform: scale(0.9); 
+}
+
+
+
+
+/*Accordion*/
+.custom-accordion-button {
+  background-color: rgb(204, 255, 204);
+}
+
+/* footer */
+
+.final-section{
+    background-color:  rgb(204, 255, 204);
+    
+  }

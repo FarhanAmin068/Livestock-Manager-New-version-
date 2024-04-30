@@ -1,0 +1,10 @@
+body { 
+    background: url(Images/background) 100% 100%; 
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} 
+ 
+.container { 
+    background: rgb(204, 255, 204); 
+}

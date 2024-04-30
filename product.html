@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+           <img src="./images/logo.png" alt="" srcset="" class="log_img">
+            <div class="userCartIcons">
+                <div class="userIcon">
+                    <img src="./images/user_icon.png" alt="User Icon">
+                </div>
+                <div class="iconCart">
+                    <img src="./images/icon.png" alt="Cart Icon">
+                    <div class="totalQuantity">0</div>
+                </div>
+                
+            </div>
+        </header>
+
+        <div class="searchBar">
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+
+        <div class="listProduct">
+
+            <div class="item" data-name="Cow">
+                <img src="images/1.jpg" alt="">
+                <h2>Cow</h2>
+                <div class="price">$520</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Goat">
+                <img src="images/2.jpg" alt="">
+                <h2>Goat</h2>
+                <div class="price">$220</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Chicken">
+                <img src="images/3.jpg" alt="">
+                <h2>Chicken</h2>
+                <div class="price">$250</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Duck">
+                <img src="images/4.jpg" alt="">
+                <h2>Duck</h2>
+                <div class="price">$420</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Beef">
+                <img src="images/5.jpg" alt="">
+                <h2>Beef</h2>
+                <div class="price">$120</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Mutton">
+                <img src="images/6.jpg" alt="">
+                <h2>Mutton</h2>
+                <div class="price">$120</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Egg">
+                <img src="images/7.jpg" alt="">
+                <h2>Egg</h2>
+                <div class="price">$120</div>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="item" data-name="Milk">
+                <img src="images/8.jpg" alt="">
+                <h2>Milk</h2>
+                <div class="price">$120</div>
+                <button>Add To Cart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>CART</h2>
+
+        <div class="listCart">
+
+            <div class="item">
+                <img src="images/1.jpg">
+                <div class="content">
+                    <div class="name">Cow</div>
+                    <div class="price">$550 / 1 product</div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <div class="close">
+                CLOSE
+            </div>
+            <div class="checkout">
+                <a href="checkout.html">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>

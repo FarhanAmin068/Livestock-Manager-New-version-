@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Livestock Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <style>
+        .light-green-bg {
+            background-color: rgb(204, 255, 204);
+        }
+    </style> -->
+       <link rel="stylesheet" href="css/styles.css" />
+    <script
+    src="https://kit.fontawesome.com/323a4b731f.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body class="container-lg">
+    <!--Header-->
+    <section class="bg-col">
+    <header id="homeSection" class="header" >
+        <nav class="navbar navbar-expand-lg light-green-bg" >
+            <div class="container-fluid">
+              <img src="./images/logo.png" alt="" srcset="" class="log_img">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#homeSection"><span class="badge text-bg-success">Home</span></a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faqSection"><span class="badge text-bg-success">FAQ</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactUsSection"><span class="badge text-bg-success">Contact Us</span></a>
+                  </li>
+               
+                   <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);" id="loginButton"><span class="badge text-bg-success">Login</span></a>
+                   </li>
+                   <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);" id="signupButton"><span class="badge text-bg-success">Signup</span></a>
+                  </li>
+
+                </ul>
+
+               
+                 
+              </div>
+            </div>
+          </nav>
+          
+              <!-- banner slider  -->
+        <div id="carouselExample" class="carousel slide  light-green-bg rounded bg-opacity-10 p-5">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                  <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                      <div>
+                          <h1>Fresh products 
+                             <br> Fresh Mood
+                          </h1>
+                          <p>       We provide fresh Livestock and Products obtained from them
+                          </p>
+                          <div class="mt-4">
+                            <button class="btn btn-success btn-rounded" type="button"> Explore More  <i class="fa-sharp fa-solid fa-compass"></i></button>
+                            
+                          
+                        </div>
+                       
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                      <img src="Images/cow.avif" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                      <div>
+                          <h1>Fresh prodcuts 
+                            <br> Fresh Mood
+                          </h1>
+                          <p>       We provide Fresh livestock and Products obtained from them
+                          </p>
+                          <div class="mt-4">
+                            <button class="btn btn-success btn-rounded" type="button"> Explore More  <i class="fa-sharp fa-solid fa-compass"></i></button>
+                            
+                          
+                        </div>
+                  
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                      <img src="./images/vector-goat.jpg" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                      <div>
+                          <h1>Fresh prodcuts 
+                            <br> Fresh Mood
+                          </h1>
+                          <p>         We provide Fresh livestock and Products obtained from them
+                          </p>
+                          <div class="mt-4">
+                            <button class="btn btn-success btn-rounded" type="button"> Explore More  <i class="fa-sharp fa-solid fa-compass"></i></button>
+                            
+                          
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                      <img src="Images/duck.avif" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bikerz-zone-light-red" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon bikerz-zone-light-red" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </header>
+ 
+    <!--main-->
+    <main>
+       <!-- All Livestock-->
+       <section class="we-provide">
+        <h1 class="pt-3 text-lg-center text-sm-start">What We Provide</h1>
+        <p class=" pt-3 text-lg-center text-sm-start">
+         We Provide Various types of livestock proudcts .
+         Our customers <br>can buy Livestocks all well as products obtained from them.
+        </p>
+        <div class="container text-center">
+          <div class="row g-2">
+            <div class="col-sm-6 col-12">
+              <div class="p-2 livestock-container">
+                <img class="livestock-image" src="Images/cowlogo_225x225 copy.png" class="img-fluid" alt="">
+                <h2 class="pt-3 text-lg-center text-sm-start">Cow</h2>
+                <p>We Provide cows,as well as their meat and milk</p>
+                
+              </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="p-2 livestock-container">
+                <img class="livestock-image" src="Images/goatlogo_225x225 (1) copy.png" class="img-fluid " alt="">
+                <h2 class="pt-3 text-lg-center text-sm-start">Goat</h2>
+                <p>We Provide goats,as well as their meat and milk</p>
+              
+              </div>
+            </div>
+        
+            <div class="col-sm-6 col-12">
+              <div class="p-2 livestock-container">
+                <img class="livestock-image" src="Images/Chickenlogo_225x225 copy.png" class="img-fluid" alt="">
+                <h2 class="pt-3 text-lg-center text-sm-start">Chicken</h2>
+                <p>We Provide Chicken,their meat and their egg.</p>
+           
+              </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="p-2 livestock-container">
+                <img class="livestock-image" src="Images/Background copy.png"img-fluid alt="">
+                <h2 class="pt-3 text-lg-center text-sm-start">Duck</h2>
+                <p>We Provide Ducks,their meat and their egg.</p>
+               
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Frequently asked questions -->
+      <section id="faqSection">
+        <h1 class="mt-5 pt-3 text-lg-center text-sm-start">Frequently asked questions</h1>
+        <p class=" pt-3 text-lg-center text-sm-start">
+         We get many questions from our customers.
+         <br>We have answered most of the frequently asked questions.
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 mt-5 g-4">
+         
+          <div class="col">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                   <b> Do We have Home Delivery System?</b>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><strong>Yes, our company will deliver fresh Product to your address. We have safe Transportation system.</strong></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                   <b> Is Our Product Fresh?</b>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><strong>Yes We Provide fresh and healthy live stock Products throughout the country.</strong></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                   <b> What do we use to preserve our meat?</b>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><strong>Nitrates and nitrites are commonly used as chemical food preservatives for meat products. Like sodium benzoate, these chemicals inhibit bacterial and fungal growth, particularly the growth of Clostridium botulinum, which causes botulism.</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <img class="w-50" src="Images/faq.avif" class="img-fluid" alt="">
+        </div>
+      </div>
+      </section>
+    </main>
+
+       
+    <script src="js/index.js"></script>
+    </main>
+    <!--Footer-->
+    <footer id="contactUsSection">
+      <section class="Footer" id="footer">
+      <div class="final-section mt-5 mb-5">
+        <div class="container text-center">
+          <div class="row row-cols-2">
+           
+            <div class="col-sm-6 col-12"> 
+             
+              <h1 class="fw-5  pt-5">Contact Now</h2>
+                <div class="address_details">
+                  <i class="fas fa-map-marker-alt"></i>
+             <p ><b>Address:<br>
+            </b>Pahartoli,Rauzan,CUET</p>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+             <p ><b>Phone no:</b><br>
+              01318879104<br>
+                 01879-984402
+                <br>01400-889168</p>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+             <p><b>Email:</b><br>
+              u2004068@student.cuet.ac.bd<br>
+              u2004072@student.cuet.ac.bd<br>
+              u2004091@student.cuet.ac.bd</p>
+            </div>
+  
+            </div>
+            <div class="col-sm-6 col-12">     
+              <h1 class="fw-5  pt-5">Subscribe</h1>
+              <p >
+                Subscribe for our latest <br> Updates. We Won’t Give You<br> Spam Mails
+              </p>
+              <div class="text-center d-flex">
+                <input type="Email" name="" id="" placeholder="Email address" class="w-100 p-3 no-border " />
+              <button class="btn-primary1 ms-auto sm-" type="submit"><i class="fa-solid fa-location-arrow"></i>
+              </button>
+            </div>
+            </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      
+      
+     </footer>
+    </section>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
